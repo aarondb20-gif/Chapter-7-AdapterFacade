@@ -7,12 +7,13 @@ public class FirewallAdapter implements SecurityLog{
 
     @Override
     public void logEvent(String message) {
-        legacyFirewall.recordActivity(message);
+        legacyFirewall.recordActivity("System Log: " + message);
 
     }
 
     @Override
     public void setSeverity(int level) {
+        System.out.println("Security Level:");
         legacyFirewall.setAlertLevel(level);
 
     }

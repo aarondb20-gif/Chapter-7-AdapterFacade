@@ -11,6 +11,7 @@ public class UserAccessManager {
         System.out.println("Unlocked User Accounts: " + usernames);
     }
     public void grantAdminAccess(String user){
+        System.out.println("Administrator Access Granted to: " + user);
 
     }
 }

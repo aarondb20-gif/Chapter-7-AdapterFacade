@@ -1,6 +1,10 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class NetworkTrafficController {
 
     public void blockPort(int port){
+
         System.out.println("Blocked Port: " + port);
 
     }

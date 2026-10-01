@@ -7,6 +7,7 @@ public class EncryptionService {
         System.out.println("Decrypted Database: " + dbName);
     }
     public void verifyIntegrity(){
+        System.out.println("System Integrity is stable.");
 
     }
 
